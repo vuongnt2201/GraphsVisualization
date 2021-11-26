@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationGraph", "Y2VisualGraph\VisualizationGraph.csproj", "{816A15DB-58AF-442D-870A-AE7FA103268E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualizationGraph", "VisualizationGraph\VisualizationGraph.csproj", "{816A15DB-58AF-442D-870A-AE7FA103268E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
