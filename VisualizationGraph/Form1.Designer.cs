@@ -32,7 +32,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.cboTo = new System.Windows.Forms.ComboBox();
             this.cboFrom = new System.Windows.Forms.ComboBox();
@@ -51,7 +50,7 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.graphUI1 = new VisualizationGraph.GraphUI();
-            this.label3 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -101,17 +100,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 576);
             this.panel1.TabIndex = 7;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(13, 306);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(155, 35);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Clear Floyd Data";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -237,7 +225,6 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.toolStrip1);
             this.groupBox2.Location = new System.Drawing.Point(199, 527);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -321,14 +308,16 @@
             this.graphUI1.ContentChanged += new System.EventHandler(this.graphUI1_ContentChanged);
             this.graphUI1.SelectedNodeChanged += new System.EventHandler(this.graphUI1_SelectedNodeChanged);
             // 
-            // label3
+            // button4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(742, 28);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "label3";
+            this.button4.Location = new System.Drawing.Point(11, 306);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(155, 35);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Clear Floyd Data";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
@@ -376,7 +365,6 @@
         private System.Windows.Forms.ComboBox cboFrom;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label3;
     }
 }
 

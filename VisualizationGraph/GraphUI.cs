@@ -22,6 +22,7 @@ namespace VisualizationGraph
         Point _startPoint; 
         int _startIndex;
 
+
         int _selectedIndex;
 
         Point _p;
@@ -49,8 +50,8 @@ namespace VisualizationGraph
         public void isFloyd(bool changed)
         {
             _matrix.checkFloyd = changed;
-            //RefreshMatrix();
-            //Invalidate();
+            RefreshMatrix();
+            Invalidate();
 
         }
 
@@ -530,6 +531,8 @@ namespace VisualizationGraph
 
             base.OnPaint(e);
         }
+
+
         void DrawEdge(Graphics g, Edge item, PointF p1, PointF p2, bool selected)
         {
             string distance = GetDistance(Point.Round(p1), Point.Round(p2)).ToString();
