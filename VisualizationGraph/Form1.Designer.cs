@@ -49,6 +49,7 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.graphUI1 = new VisualizationGraph.GraphUI();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -57,7 +58,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(11, 106);
+            this.button1.Location = new System.Drawing.Point(11, 103);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 35);
@@ -81,6 +82,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.cboTo);
             this.panel1.Controls.Add(this.cboFrom);
             this.panel1.Controls.Add(this.btnClearEdge);
@@ -144,18 +146,18 @@
             this.groupBox1.Controls.Add(this.btnChangeNodeColor);
             this.groupBox1.Controls.Add(this.btnDeleteNode);
             this.groupBox1.Enabled = false;
-            this.groupBox1.Location = new System.Drawing.Point(5, 351);
+            this.groupBox1.Location = new System.Drawing.Point(5, 437);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(169, 186);
+            this.groupBox1.Size = new System.Drawing.Size(169, 100);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Node Options";
             // 
             // btnChangeNodeColor
             // 
-            this.btnChangeNodeColor.Location = new System.Drawing.Point(19, 82);
+            this.btnChangeNodeColor.Location = new System.Drawing.Point(21, 58);
             this.btnChangeNodeColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnChangeNodeColor.Name = "btnChangeNodeColor";
             this.btnChangeNodeColor.Size = new System.Drawing.Size(131, 31);
@@ -166,7 +168,7 @@
             // 
             // btnDeleteNode
             // 
-            this.btnDeleteNode.Location = new System.Drawing.Point(19, 37);
+            this.btnDeleteNode.Location = new System.Drawing.Point(21, 21);
             this.btnDeleteNode.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDeleteNode.Name = "btnDeleteNode";
             this.btnDeleteNode.Size = new System.Drawing.Size(129, 31);
@@ -177,7 +179,7 @@
             // 
             // chkUndirectedGrapth
             // 
-            this.chkUndirectedGrapth.Location = new System.Drawing.Point(11, 313);
+            this.chkUndirectedGrapth.Location = new System.Drawing.Point(11, 406);
             this.chkUndirectedGrapth.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkUndirectedGrapth.Name = "chkUndirectedGrapth";
             this.chkUndirectedGrapth.Size = new System.Drawing.Size(157, 25);
@@ -215,7 +217,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox2.Size = new System.Drawing.Size(738, 64);
+            this.groupBox2.Size = new System.Drawing.Size(990, 64);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Toolbox";
@@ -232,7 +234,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(4, 18);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(730, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(982, 27);
             this.toolStrip1.TabIndex = 0;
             // 
             // toolStripButton1
@@ -288,16 +290,27 @@
             this.graphUI1.Location = new System.Drawing.Point(199, 15);
             this.graphUI1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.graphUI1.Name = "graphUI1";
-            this.graphUI1.Size = new System.Drawing.Size(738, 505);
+            this.graphUI1.Size = new System.Drawing.Size(990, 505);
             this.graphUI1.TabIndex = 0;
             this.graphUI1.ContentChanged += new System.EventHandler(this.graphUI1_ContentChanged);
             this.graphUI1.SelectedNodeChanged += new System.EventHandler(this.graphUI1_SelectedNodeChanged);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(13, 265);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(155, 35);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Create Floyd Data";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 605);
+            this.ClientSize = new System.Drawing.Size(1210, 605);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.graphUI1);
@@ -337,6 +350,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton4;
         private System.Windows.Forms.ComboBox cboTo;
         private System.Windows.Forms.ComboBox cboFrom;
+        private System.Windows.Forms.Button button3;
     }
 }
 

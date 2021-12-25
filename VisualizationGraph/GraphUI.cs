@@ -47,6 +47,14 @@ namespace VisualizationGraph
                 Invalidate();
             }
         }
+        public void isFloyd()
+        {
+            _matrix.checkFloyd = true;
+            RefreshMatrix();
+            Invalidate();
+
+        }
+
         public DrawingTools Tool;
         private MovingBall _ball;
 

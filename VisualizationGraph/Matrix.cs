@@ -11,7 +11,6 @@ namespace VisualizationGraph
 
 		Point _p;
 		Point _pRightBottom;
-
 		int[,] _data;
 		public FloydCell[,] FloydData;
 		float _size;
@@ -21,6 +20,7 @@ namespace VisualizationGraph
 
 		bool _selected = false;
 		bool _resizing = false;
+		public bool checkFloyd = false;
 
 		public Matrix()
 		{
@@ -200,7 +200,7 @@ namespace VisualizationGraph
 		{
 			if (Data == null)
 				return;
-
+			
 			DrawMatrix(Data, e.Graphics);
 			if (_selected)
 			{
@@ -237,7 +237,7 @@ namespace VisualizationGraph
 					if (array[i, j] < 0)
 					{
 						v = "-";
-						if (FloydData != null)
+						if (FloydData != null && checkFloyd)
 						{
 							if (FloydData[i, j].Value > 0)
 							{
@@ -256,7 +256,6 @@ namespace VisualizationGraph
 				}
 			}
 		}
-
 	}
 struct FloydCell
 {
