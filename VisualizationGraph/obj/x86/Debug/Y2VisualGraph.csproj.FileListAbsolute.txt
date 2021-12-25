@@ -1,0 +1,10 @@
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.exe.config
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.csproj.AssemblyReference.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.Form1.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.Properties.Resources.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.csproj.GenerateResource.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.csproj.CoreCompileInputs.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.pdb

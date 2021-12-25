@@ -1,0 +1,29 @@
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.Form1.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.Properties.Resources.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.csproj.GenerateResource.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.csproj.CoreCompileInputs.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\obj\x86\Debug\Y2VisualGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.exe.config
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\hoidapit.com.vn - Y2VisualGraph 1.3.3\Y2VisualGraph 1.3.3\Y2VisualGraph\bin\Debug\Y2VisualGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.csproj.AssemblyReference.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.Form1.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.csproj.GenerateResource.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.csproj.CoreCompileInputs.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\bin\Debug\VisualizationGraph.exe.config
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\bin\Debug\VisualizationGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\bin\Debug\VisualizationGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.Properties.Resources.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\Y2VisualGraph\obj\x86\Debug\VisualizationGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\bin\Debug\VisualizationGraph.exe.config
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\bin\Debug\VisualizationGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\bin\Debug\VisualizationGraph.pdb
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.csproj.AssemblyReference.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.Form1.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.Properties.Resources.resources
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.csproj.GenerateResource.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.csproj.CoreCompileInputs.cache
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.exe
+D:\Study\LapTrinhTrucQuan\Đồ án\VisualizationGraph\VisualizationGraph\VisualizationGraph\obj\x86\Debug\VisualizationGraph.pdb
