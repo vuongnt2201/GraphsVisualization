@@ -32,6 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.cboTo = new System.Windows.Forms.ComboBox();
             this.cboFrom = new System.Windows.Forms.ComboBox();
             this.btnClearEdge = new System.Windows.Forms.Button();
@@ -49,7 +51,7 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.graphUI1 = new VisualizationGraph.GraphUI();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -82,6 +84,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.cboTo);
             this.panel1.Controls.Add(this.cboFrom);
@@ -98,6 +101,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 576);
             this.panel1.TabIndex = 7;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(13, 306);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(155, 35);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Clear Floyd Data";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(13, 265);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(155, 35);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Create Floyd Data";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // cboTo
             // 
@@ -212,6 +237,7 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.toolStrip1);
             this.groupBox2.Location = new System.Drawing.Point(199, 527);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -295,16 +321,14 @@
             this.graphUI1.ContentChanged += new System.EventHandler(this.graphUI1_ContentChanged);
             this.graphUI1.SelectedNodeChanged += new System.EventHandler(this.graphUI1_SelectedNodeChanged);
             // 
-            // button3
+            // label3
             // 
-            this.button3.Location = new System.Drawing.Point(13, 265);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 35);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Create Floyd Data";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(742, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "label3";
             // 
             // Form1
             // 
@@ -351,6 +375,8 @@
         private System.Windows.Forms.ComboBox cboTo;
         private System.Windows.Forms.ComboBox cboFrom;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label3;
     }
 }
 

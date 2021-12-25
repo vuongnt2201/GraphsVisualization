@@ -83,6 +83,7 @@ namespace VisualizationGraph
             }
             _parent.Invalidate();
         }
+
         public void Draw(Graphics g)
         {
             if (StartPos != Point.Empty)

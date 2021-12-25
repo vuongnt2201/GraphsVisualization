@@ -140,7 +140,12 @@ namespace VisualizationGraph
 
         private void button3_Click(object sender, EventArgs e)
         {
-            graphUI1.isFloyd();
+            graphUI1.isFloyd(true);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            graphUI1.isFloyd(false);
         }
     }
 }

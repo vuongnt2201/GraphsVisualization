@@ -237,7 +237,7 @@ namespace VisualizationGraph
 					if (array[i, j] < 0)
 					{
 						v = "-";
-						if (FloydData != null && checkFloyd)
+						if (FloydData != null)
 						{
 							if (FloydData[i, j].Value > 0)
 							{
